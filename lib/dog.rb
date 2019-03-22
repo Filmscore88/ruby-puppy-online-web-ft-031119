@@ -12,7 +12,7 @@ class Dog
     @@all.clear
   end 
   def self.all
-    @@all.each {|print_pup_names|
+    @@all.each {|print_pup_names| binding.pry
      puts "#{print_pup_names}"
      }
   end
